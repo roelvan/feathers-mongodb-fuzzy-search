@@ -1,5 +1,5 @@
-const utils = require('feathers-commons')
-const errors = require('feathers-errors')
+const { each } = require('lodash')
+const errors = require('@feathersjs/errors')
 
 /**
  * Adds " around `str` and removes any " in `str`.
