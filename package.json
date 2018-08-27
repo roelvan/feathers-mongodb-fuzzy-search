@@ -36,8 +36,8 @@
     "superagent": "^3.8.1"
   },
   "dependencies": {
-    "feathers-commons": "^0.8.7",
-    "feathers-errors": "^2.9.1"
+    "@feathersjs/errors": "^3.3.0",
+    "lodash": "^4.17.10"
   },
   "runkitExampleFilename": "example.js"
 }
